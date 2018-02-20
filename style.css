@@ -1,0 +1,147 @@
+/* CUSTOM STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    font-family: Open Sans;
+    line-height: 1.5em;
+    font-size: 13px;
+    color: #333;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+#container {
+    margin: auto;
+    padding: 10px;
+    background-color: #333;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+/* NAVBAR */
+
+#navbarToggler {
+    font-size: 18px;
+}
+
+.form-control, input[type="search"] {
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
+    border: none;
+    border-bottom: 2px solid #333;
+}
+
+
+.btn {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+
+/* CAROUSEL PICTURES */
+
+.carousel-inner  {
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #333;
+} 
+
+.carousel-item {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* FOOTER */
+
+.footer-wrapper {
+    display: block;
+    
+}
+
+.newsletter{
+    display: block;
+    text-align: center;
+    background-color: #b5121b;
+    margin: auto;
+    padding: 10px;
+}
+
+#email-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #b5121b;
+    border-bottom: 3px solid #333;     
+}
+
+#email-input:hover {
+    background-color: whitesmoke;
+}
+
+button.btn {
+    display: inline-block;
+    padding: 5px 12px 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* FOOTER LINKS */
+
+footer.foot-links {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: #333;
+    color: whitesmoke;
+    columns: 3;
+    column-rule: 2px solid whitesmoke;
+    padding: 20px;
+}
+
+.foot-links h3 {
+    text-align: center;
+    padding-left: 4px;
+    margin: 0 0 22px 0;
+}
+.foot-links li {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    padding-right: 30px;
+    margin: 0;
+}
+
+.foot-links a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+.foot-links a:hover {
+    text-decoration: none;
+    color: #b5121b;
+}
